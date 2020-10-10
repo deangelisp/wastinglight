@@ -1,0 +1,18 @@
+{
+  "baseUrl": "http://localhost/",
+  "env": {
+    "baseUrl": "http://localhost/",
+    "wpUserName": "admin",
+    "wpPassword": "12345",
+    "dataPlugin": "visualcomposer/plugin-wordpress.php",
+    "newPage": "/wp-admin/post-new.php?post_type=page&vcv-action=frontend",
+    "newHeader": "/wp-admin/post-new.php?post_type=vcv_headers&vcv-action=frontend&vcv-editor-type=vcv_headers",
+    "newFooter": "/wp-admin/post-new.php?post_type=vcv_footers&vcv-action=frontend&vcv-editor-type=vcv_footers",
+    "hfsSettings": "/wp-admin/admin.php?page=vcv-headers-footers",
+    "serverType": "ci"
+  },
+  "video": true,
+  "pageLoadTimeout": 80000,
+  "execTimeout": 350000,
+  "requestTimeout": 10000
+}
